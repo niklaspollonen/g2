@@ -35,6 +35,13 @@ ifeq ("$(CONFIG)","ShapeokoDualY")
     SETTINGS_FILE="settings_shapeoko2.h"
 endif
 
+ifeq ("$(CONFIG)","proxxonMF70")
+ifeq ("$(BOARD)","NONE")
+BOARD=gShield
+endif
+SETTINGS_FILE="settings_proxxonMF70.h"
+endif
+
 ifeq ("$(CONFIG)","Othermill")
     ifeq ("$(BOARD)","NONE")
         BOARD=g2v9k

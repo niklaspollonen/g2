@@ -199,6 +199,20 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
+		2E766B0D1E5F204E002D9459 /* G2 GAUPS MF70 */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) VERBOSE=1 CONFIG=proxxonMF70 BOARD=gShield";
+			buildConfigurationList = 2E766B0E1E5F204E002D9459 /* Build configuration list for PBXLegacyTarget "G2 GAUPS MF70" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = .;
+			dependencies = (
+			);
+			name = "G2 GAUPS MF70";
+			passBuildSettingsInEnvironment = 1;
+			productName = g3_due;
+		};
 		D4037C091CDA42F300BC72AD /* G2 printrboardG2v3 PrintrbotPlus */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION) VERBOSE=1 COLOR=0 CONFIG=PrintrbotPlus BOARD=printrboardG2v3 DEBUG=2";
@@ -243,7 +257,7 @@
 		};
 		D45710C21705330C00EA19A8 /* G2 gShield */ = {
 			isa = PBXLegacyTarget;
-			buildArgumentsString = "$(ACTION) VERBOSE=1 COLOR=0 OPTIMIZATION=s BOARD=gShield";
+			buildArgumentsString = "$(ACTION) VERBOSE=1 CONFIG=ShapeokoDualY BOARD=gShield";
 			buildConfigurationList = D45710C31705330D00EA19A8 /* Build configuration list for PBXLegacyTarget "G2 gShield" */;
 			buildPhases = (
 			);
@@ -406,6 +420,7 @@
 				D4782AAE1D9B16BE00B32136 /* G2 Probotix */,
 				D457112317053BFB00EA19A8 /* index */,
 				D4782AB61D9E39EC00B32136 /* G2 EggBot */,
+				2E766B0D1E5F204E002D9459 /* G2 GAUPS MF70 */,
 			);
 		};
 /* End PBXProject section */
@@ -452,6 +467,26 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		2E766B0F1E5F204E002D9459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BOARD = ArduinoDue;
+				PATH = "$PATH:/usr/local/gcc-arm-none-eabi/bin";
+				PLATFORM = atmel_sam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2E766B101E5F204E002D9459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BOARD = ArduinoDue;
+				PATH = "$PATH:/usr/local/gcc-arm-none-eabi/bin";
+				PLATFORM = atmel_sam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		D4037C0B1CDA42F300BC72AD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -762,6 +797,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2E766B0E1E5F204E002D9459 /* Build configuration list for PBXLegacyTarget "G2 GAUPS MF70" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E766B0F1E5F204E002D9459 /* Debug */,
+				2E766B101E5F204E002D9459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D4037C0A1CDA42F300BC72AD /* Build configuration list for PBXLegacyTarget "G2 printrboardG2v3 PrintrbotPlus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

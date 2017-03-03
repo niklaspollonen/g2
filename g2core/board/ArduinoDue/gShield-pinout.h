@@ -255,6 +255,19 @@ pin_number kADC11_PinNumber = -1;  // 161;
 pin_number kADC12_PinNumber = -1;  // 162;
 pin_number kADC13_PinNumber = -1;  // Not physially pinned out
 pin_number kADC14_PinNumber = -1;  // Not physially pinned out
+    
+pin_number kXAxis_MinPinNumber = -1;
+pin_number kXAxis_MaxPinNumber = 14;
+pin_number kYAxis_MinPinNumber = -1;
+pin_number kYAxis_MaxPinNumber = 16;
+pin_number kZAxis_MinPinNumber = 19; //probe
+pin_number kZAxis_MaxPinNumber = 18;
+pin_number kAAxis_MinPinNumber = -1;
+pin_number kAAxis_MaxPinNumber = -1;
+pin_number kBAxis_MinPinNumber = -1;
+pin_number kBAxis_MaxPinNumber = -1;
+pin_number kCAxis_MinPinNumber = -1;
+pin_number kCAxis_MaxPinNumber = -1;
 
 
 // GRBL / gShield compatibility pins -- Due board ONLY
